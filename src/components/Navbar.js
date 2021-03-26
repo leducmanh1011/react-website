@@ -33,7 +33,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onCick={closeMobileMenu}>
-            HOME <i className="fab fa-typo3" />
+            HOME
+            <FontAwesomeIcon icon={icons.faTrophy} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? icons.faTimes : icons.faBars} />
