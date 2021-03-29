@@ -33,8 +33,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onCick={closeMobileMenu}>
-            HOME
-            <FontAwesomeIcon icon={icons.faTrophy} />
+            MANHLD
+            <FontAwesomeIcon icon={icons.faCoffee} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <FontAwesomeIcon icon={click ? icons.faTimes : icons.faBars} />
